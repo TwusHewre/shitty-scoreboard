@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #0e0e34 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px; /* important */
+    padding-top: 68px;
+}
+
+/*For the away/home text*/
+#title-home, #title-guest {  /* Combined selectors since they share styles */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    width: 180px;
+    margin: 0 auto 25px;
+    height: 36px;  
+}
+
+
+#home-board, #guest-board {
+    width: 180px;
+    height: 120px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: CursedTimer;
+    margin: 0 auto; 
+}
+
+
+.btn-h-score, .btn-g-score{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 82px;
+    width: 180px;
+    margin: 40px auto 0;
+  
+    
+}
+
+.btn-h-score button, .btn-g-score button {
+    background: #0e0e34;
+    color: #9AABD8;
+    border: 2px solid #9AABD9;
+    padding: 10px 12px ;
+    font-size: 18px;
+    cursor: pointer;
+}
